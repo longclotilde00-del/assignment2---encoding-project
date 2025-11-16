@@ -6,4 +6,4 @@ The TEI schema allowed me to define more precise attributes with meaningful valu
 The TEI schema also allowed me to create a thesaurus of names of people and places in the metadata, which I was able to refer to when encoding the text. Thus, TEI all schema makes encoding richer and more accurate than the DTD.
 However, even though TEI allowed me to encode the endnote reference more accurately, I am not sure that this approach is entirely appropriate. A custom schema would undoubtedly allow me to authorize a more specific element name such as “notecall”, which I was unable to find in the TEI guidelines. It would also be important to specify the symbol (an asterisk) used to refer back to the footnote. 
 Thus, the TEI schema may lack flexibility in its standardization of attributes and values, and therefore meaning may sometimes be lost when encoding text.
-I used generative AI to help me understand the errors found by Oxygen.
+
