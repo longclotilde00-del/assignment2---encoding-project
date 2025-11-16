@@ -1,3 +1,5 @@
+Encoding project : François Truffaut's letters
+
 The materials I chose are three letters written by François Truffaut, a french director from the New Wave, adressed to collaborators and friends from french cinema. The three letters intertwined professional discussions and amical notes on cinema, thus reflecting complex relationships as colleagues and friends, enthusiasts and professionals.
 
 I selected these three letters because they give us an intimate glimpse into the lives of cinema figures from the 1950s and because they witness the bonds forged around making movies. Furthermore, these letters are interesting because they are annotated in Francois Truffaut's own handwriting, combining typewritten text with later handwritten notes, which give us an insight into the director's train of thought as he wrote.
