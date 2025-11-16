@@ -1,4 +1,4 @@
-encoding project : François Truffaut's letters
+Encoding project : François Truffaut's letters
 
 For this encoding project using the TEI all schema, I kept the same samples as for the XML encoding validated with the DTD, except for one of the three letters. I have selected three letters sent by François Truffaut to three of his friends and colleagues in the film industry: Jean Gruault, Georges Delerue, and Alfred Hitchcock. These letters provide insight into the relationships that existed between various figures in the film industry in the 1960s and 1970s. Above all, they provide insight into Francois Truffaut's writing style, as two of them contain handwritten annotations and corrections.
 
