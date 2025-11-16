@@ -1,0 +1,9 @@
+The DTD only defines a minimal structure for the document which I had to entirely design, deciding which elements should be required or optional. It is therefore a tedious task, especially in the case of complex texts with different materialities. With the TEI all schema, this structure is predefined, which saves a considerable amount of time and helps to encode text rigorously.
+ 
+For example, the TEI schema was useful for encoding the handwritten footnote at the bottom of the letter. It allowed me to find a way to clearly link the body of the text to the footnote by giving it a unique identifier which would not have been as precise in the DTD.
+The TEI schema allowed me to define more precise attributes with meaningful values to encode the metadata and the specific features of the text. These predefined elements validated by the schema, such as the availability status, or the correspondence type of action, increase text comprehension.
+
+The TEI schema also allowed me to create a thesaurus of names of people and places in the metadata, which I was able to refer to when encoding the text. Thus, TEI all schema makes encoding richer and more accurate than the DTD.
+However, even though TEI allowed me to encode the endnote reference more accurately, I am not sure that this approach is entirely appropriate. A custom schema would undoubtedly allow me to authorize a more specific element name such as “notecall”, which I was unable to find in the TEI guidelines. It would also be important to specify the symbol (an asterisk) used to refer back to the footnote. 
+Thus, the TEI schema may lack flexibility in its standardization of attributes and values, and therefore meaning may sometimes be lost when encoding text.
+I used generative AI to help me understand the errors found by Oxygen.
