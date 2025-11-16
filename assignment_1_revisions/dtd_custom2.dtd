@@ -1,0 +1,65 @@
+<!ELEMENT correspondance (metadata, text)>
+<!-- There are many elements authorized by my DTD to take into account the material variations between the three letters. -->
+
+<!ELEMENT metadata (publication, description, numerisation, localisation, physicalDescription, project)>
+<!ELEMENT publication (date, editor?, country)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT editor (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT description (title, author+, format, subject+, content, context, language)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (fonction+)>
+<!ELEMENT fonction (#PCDATA)>
+<!ATTLIST fonction type (recipient|author) #REQUIRED>
+<!ELEMENT format (#PCDATA)>
+<!ATTLIST format type (physical|digital) #REQUIRED>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+<!ELEMENT context (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ATTLIST language type CDATA "fr">
+<!ELEMENT numerisation (date?, source?)>
+<!ELEMENT source (#PCDATA)>
+<!ELEMENT localisation (institution, id, access, link)>
+<!ELEMENT institution (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT access (#PCDATA)>
+<!ATTLIST access type (free|restricted) #REQUIRED>
+<!ELEMENT link (#PCDATA) >
+<!ELEMENT physicalDescription (writingType+, descriptionNote+)>
+<!ELEMENT writingType (#PCDATA)>
+<!ATTLIST writingType type (typed|handwritten) #REQUIRED>
+<!ELEMENT descriptionNote (#PCDATA)>
+<!ELEMENT project (title, name)>
+<!ELEMENT  name (#PCDATA)>
+
+<!ELEMENT text (header, body)>
+<!ELEMENT header (place?, dateInLetter?, recipientInLetter?, authorInLetter?)>
+<!ELEMENT place (#PCDATA)>
+<!ELEMENT dateInLetter (#PCDATA)>
+<!ELEMENT recipientInLetter (#PCDATA)>
+<!ATTLIST recipientInLetter type (handwritten|typed) #REQUIRED >
+<!ELEMENT authorInLetter (#PCDATA)>
+<!ELEMENT body (salutation, p+, closing?, deletion?, signature?)>
+<!ELEMENT salutation (#PCDATA)>
+<!ELEMENT p (#PCDATA|annotation|underlined)*>
+<!ATTLIST underlined frequence (once|twice) #IMPLIED >
+<!ATTLIST underlined color (red|black) #IMPLIED >
+<!ELEMENT annotation (#PCDATA|underlined)*>
+<!ATTLIST annotation type (handwritten|typed) #REQUIRED>
+<!ELEMENT underlined (#PCDATA) >
+<!ATTLIST underlined type (handwritten|typed) #IMPLIED >
+<!ELEMENT closing (#PCDATA) >
+<!ELEMENT deletion EMPTY>
+<!ATTLIST deletion type (handwritten|typed) #REQUIRED>
+<!ATTLIST deletion legible (yes|no|partial) #IMPLIED >
+<!ELEMENT signature (#PCDATA)>
+<!ATTLIST signature type (handwritten|typed) #REQUIRED >
+<!ATTLIST signature legible (no|yes) #REQUIRED >
+
+
+
+
+
+
+

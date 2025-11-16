@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE correspondance SYSTEM "dtd_custom2.dtd">
+
+<correspondance>
+    <metadata>
+        <publication>
+            <date></date>
+            <editor></editor>
+            <country></country>
+        </publication>
+        <description>
+            <title></title>
+            <author>
+                <fonction type="recipient"></fonction>
+                <fonction type="author"></fonction>
+                <!-- I have made certain attribute values mandatory depending on their importance, which is why they appear here in my template. -->
+            </author>
+            <format type="digital"> </format>
+            <subject></subject>
+            <content></content>
+            <context></context>
+            <language type="fr"></language>
+        </description>
+        <numerisation>
+            <!-- The digitization section aims to clearly differentiate between metadata concerning the publication of the original text and its online publication. -->
+            <source></source>
+        </numerisation>
+        <localisation>
+            <institution></institution>
+            <id></id>
+            <access type="free"></access>
+            <link></link>
+        </localisation>
+        <physicalDescription> 
+            <!-- This is an important section of metadata in the case of the letters I have chosen because of the different writing styles.   -->
+            <writingType type="handwritten"> </writingType>
+            <descriptionNote></descriptionNote>
+        </physicalDescription>
+        <project>
+            <title></title>
+            <name></name>
+        </project>
+    </metadata>
+    
+    <text>
+        <header>
+            <place></place>
+            <dateInLetter></dateInLetter>
+            <recipientInLetter type="handwritten"></recipientInLetter>
+        </header>
+        <body>
+            <!-- There is only one body element since there is only one message, but it contains several paragraphs.  -->
+            <salutation></salutation>
+            <p></p>
+            <closing></closing>
+            <signature type="handwritten" legible="yes"></signature>
+        </body>
+        
+    </text>
+</correspondance>
+
