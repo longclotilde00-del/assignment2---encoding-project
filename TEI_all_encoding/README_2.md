@@ -1,9 +1,13 @@
-The DTD only defines a minimal structure for the document which I had to entirely design, deciding which elements should be required or optional. It is therefore a tedious task, especially in the case of complex texts with different materialities. With the TEI all schema, this structure is predefined, which saves a considerable amount of time and helps to encode text rigorously.
- 
-For example, the TEI schema was useful for encoding the handwritten footnote at the bottom of the letter. It allowed me to find a way to clearly link the body of the text to the footnote by giving it a unique identifier which would not have been as precise in the DTD.
-The TEI schema allowed me to define more precise attributes with meaningful values to encode the metadata and the specific features of the text. These predefined elements validated by the schema, such as the availability status, or the correspondence type of action, increase text comprehension.
 
-The TEI schema also allowed me to create a thesaurus of names of people and places in the metadata, which I was able to refer to when encoding the text. Thus, TEI all schema makes encoding richer and more accurate than the DTD.
-However, even though TEI allowed me to encode the endnote reference more accurately, I am not sure that this approach is entirely appropriate. A custom schema would undoubtedly allow me to authorize a more specific element name such as “notecall”, which I was unable to find in the TEI guidelines. It would also be important to specify the symbol (an asterisk) used to refer back to the footnote. 
-Thus, the TEI schema may lack flexibility in its standardization of attributes and values, and therefore meaning may sometimes be lost when encoding text.
-I used generative AI to help me understand the errors found by Oxygen.
+For this encoding project using the TEI all schema, I kept the same samples as for the XML encoding validated with the DTD, except for one of the three letters. I have selected three letters sent by François Truffaut to three of his friends and colleagues in the film industry: Jean Gruault, Georges Delerue, and Alfred Hitchcock. These letters provide insight into the relationships that existed between various figures in the film industry in the 1960s and 1970s. Above all, they provide insight into Francois Truffaut's writing style, as two of them contain handwritten annotations and corrections.
+
+Encoding these letters in XML is a way of clarifying their context and thus comparing their creation and content. Furthermore, XML makes it possible to clarify this intermingling of handwritten notes and typed text and make it explicit. This time, my project is encoded in XML and validated against the TEI all schema based on the TEI guidelines. 
+For encoding my first letter, I developed as much as possible the TEI header containing the text metadata. For example, I have integrated a thesaurus of people and places so that they can be referenced in the metadata and in the encoding of the text. I also developed the physical description sections to describe the differences in writing (handwritten, typed). I have also included the changes made to my encoding and their date so that they can be easily identified. Finally, the metadata contains elements from the TEI schema that are specific to the letter format, such as correspdesc, which describes the action associated with the letter.
+The encoding of the body text explains the common structure of a letter with an opener, dateline, paragraphs, signature, etc. I added the changes of hand for the writing mode as well as annotations and a deletion at the signature.
+I used gen AI to help me understand the use of certain TEI elements.
+
+
+
+
+
+
