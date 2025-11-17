@@ -1,3 +1,5 @@
+Reflection note : comparing DTD and TEI ALL
+
 The DTD only defines a minimal structure for the document which I had to entirely design, deciding which elements should be required or optional. It is therefore a tedious task, especially in the case of complex texts with different materialities. With the TEI all schema, this structure is predefined, which saves a considerable amount of time and helps to encode text rigorously.
  
 For example, the TEI schema was useful for encoding the handwritten footnote at the bottom of the letter. It allowed me to find a way to clearly link the body of the text to the footnote by giving it a unique identifier which would not have been as precise in the DTD.
